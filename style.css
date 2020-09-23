@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url ("../fonts/ProximaNova-Regular.otf");
+}
+
+span.app-icon {
+    padding: 15px 18px;
+    border: 2px solid #1275B9;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .3s;
+    cursor: pointer;
+}
+
+.app-icon:hover {
+    background-color: #1275B9;
+}
+.app-icon:hover .icon-Tablet {
+color: white
+}
+
+.app-icon:hover .icon-settings {
+    color: white
+}
+
+.app-icon:hover .icon-fast-reliable {
+    color: white
+ }
+
+.icon-Tablet {
+    font-size: 30px;
+    color: #1275B9;
+    transition: color .3s;
+}
+
+.icon-settings {
+    font-size: 30px;
+    color: #1275B9;
+    transition: color .3s;
+    padding: 0px;
+    padding: 1px 0px;
+}
+
+.icon-fast-reliable {
+    font-size: 30px;
+    padding: 3px 0px;
+    color: #1275B9;
+    font-size: 24px;
+    transition: color .3s;
+}
+
+div.content {
+    text-align: center;
+    display: inline-block;
+    background: linear-gradient(to right, #FFE5E5 70%, white 30px);
+    background-size: 60px;
+    height: 289px;
+    width: 1000px;
+    margin: 170px 140px;
+}
+
+div.responsive-design, div.easy-customise, div.easy-reliable {
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: "Proxima Nova", sans-serif;
+}
+
+p.text {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgb(157, 157, 157);
+}
